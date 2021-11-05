@@ -46,6 +46,38 @@ header {
     float: right;
 }
 
+.button a {
+    background-color: #0063ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.title-plan {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.purchase-plan li {
+    list-style: none;
+}
+
+.purchase-plan li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #0063ff;
+}
+
+hr {
+    width: 50px;
+}
+
+
+
+/*---------------------------------------------------------*/
+
 .nav-left div {
     display: inline-block;
 }
@@ -53,18 +85,6 @@ header {
 .nav-right div {
     display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------------------------*/
-
 
 .jumbotron-row {
     width: 100%;
@@ -100,7 +120,8 @@ header {
 .plan-1, .plan-2, .plan-3 {
     width: 33.333%;
     border: 1px solid black;
-    text-align: center;
+    /* text-align: center; */
+    padding: 0 20px;
 }
 
 .plan-1 {
@@ -114,3 +135,41 @@ header {
 .plan-3 {
     padding-left: 15px;
 }
+
+.title-plan {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.sales-office {
+    border: 1px solid black;
+}
+
+.enterprise {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.text-enterprise {
+    width: 60%;
+    border: 1px solid black;
+}
+
+.button-enterprise {
+    width: 40%;
+    border: 1px solid black;
+}
+
+.image-box-partner img {
+    width: 100%;
+}
+
+.image-box-partner {
+    width: 50%;
+}
+
+.text-box-partner {
+    width: 50%;
+}
+
