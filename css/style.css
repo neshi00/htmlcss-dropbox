@@ -92,3 +92,25 @@ header {
 .pricing {
     margin-top: 150px;
 }
+
+.container .purchase-plan {
+    width: 100%;
+}
+
+.plan-1, .plan-2, .plan-3 {
+    width: 33.333%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.plan-1 {
+    padding-right: 15px;
+}
+
+.plan-2 {
+    padding: 0 15px;
+}
+
+.plan-3 {
+    padding-left: 15px;
+}
