@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.big-container {
+    height: 550px;   /* da togliere? */
+    background-color: #add1ea;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 550px;
+}
+
+.nav-left, .logo-nav, .nav-right {
+    height: 35px;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.nav-left div {
+    display: inline-block;
+}
+
+.nav-right div {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------*/
+
+
+.jumbotron-row {
+    width: 100%;
+}
+
+.jumbotron-row img {
+    width: 100%;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.text-jumbotron {
+    width: 40%;
+}
+
+.image-jumbotron {
+    width: 60%;
+}
+
+.pricing {
+    margin-top: 150px;
+}
