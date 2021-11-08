@@ -6,7 +6,7 @@
 }
 
 .big-container {
-    height: 650px;   /* da togliere? */
+    height: 650px;
     background-color: #add1ea;
     background-size: cover;
     border: 1px solid black;
@@ -25,7 +25,7 @@ header {
     width: 1200px;
     margin: 0 auto;
     border: 1px solid black;
-    height: 650px;
+    /* height: 650px; */
 }
 
 .row {
@@ -205,7 +205,6 @@ div a {
     padding: 40px;
 }
 
-
 .image-box-partner img {
     width: 100%;
 }
@@ -229,4 +228,29 @@ h2 {
     font-weight: 700;
     font-size: 35px;
 }
+
+/* features business  */
+
+.feature-drop {
+    width: 100%;
+}
+
+.feature {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.feature img  {
+    width: 100%;
+}
+
+.drop-business h2 {
+    padding: 20px 20px 20px 0;
+}
+
+.feature-drop h2 {
+    width: 50%;
+}
+
+
 
