@@ -6,15 +6,12 @@
 }
 
 .big-container {
-    height: 650px;
     background-color: #add1ea;
     background-size: cover;
-    border: 1px solid black;
 }
 
 header {
     background-color: #fff;
-    border: 1px solid black;
 }
 
 .navbar {
@@ -24,11 +21,9 @@ header {
 .container {
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
-    /* height: 650px; */
 }
 
-.row {
+.row::after {
     content: "";
     display: table;
     clear: both;
@@ -46,6 +41,10 @@ header {
     font-weight: bold;
 }
 
+.padd15-up-down {
+    padding: 15px 0;
+}
+
 .button a {
     background-color: #0063ff;
     color: #fff;
@@ -53,8 +52,13 @@ header {
     padding: 5px 20px;
 }
 
-.title-plan {
+.button-special a {
+    background-color: #fff;
+    color: #000;
     border: 1px solid black;
+}
+
+.title-plan {
     width: 100%;
     text-align: center;
 }
@@ -71,7 +75,7 @@ header {
 }
 
 hr {
-    width: 50px;
+    width: 100px;
 }
 
 .pricing h2 {
@@ -90,6 +94,16 @@ div i {
 div a {
     padding: 0 5px;
 }
+/*---------------------------------------------------------*/
+
+/* margini tra un blocco e l'altro */
+
+.pricing {
+    margin-top: 100px;
+}
+
+
+
 
 
 /*---------------------------------------------------------*/
@@ -110,9 +124,18 @@ div a {
     font-weight: 500;
 }
 
+/* jumbo */
+
+.container-jumbo {
+    height: 600px;
+}
+
+.jumbotron-row {
+    position: relative;
+}
+
 .jumbotron-row {
     width: 100%;
-    border: 1px solid black;
 }
 
 .jumbotron-row img {
@@ -142,68 +165,68 @@ div a {
     width: 60%;
 }
 
-.pricing {
-    margin-top: 250px;
-}
+/* pricing */
 
 .container .purchase-plan {
     width: 100%;
 }
 
 .plan-1, .plan-2, .plan-3 {
-    width: 33.333%;
-    border: 1px solid black;
+    width: calc((100% / 3) - 100px);
+    border: 1px solid #000;
+    padding-bottom: 100px;
 }
 
 .plan-1 {
+    margin-right: 50px;
+}
+
+.content-plan {
     padding: 0 15px;
 }
 
 .purchase-plan .title-plan {
-    border: 1px solid black;
-    background-color: red;
-    width: 370.33px;
+    border: 1px solid #000;
+    padding: 15px 0;
 }
 
 .plan-2 {
-    padding: 0 15px;
+    margin-right: 50px;
 }
-
-.plan-3 {
-    padding-left: 15px;
-}
-
-/* .title-plan {
-    border: 1px solid black;
-    width: 100%;
-    text-align: center;
-} */
 
 .plan-1 p {
     color: #9e9e9e;
 }
+/* -----------------*/
 
 .sales-office {
-    border: 1px solid black;
     margin-top: 150px;
+    border: 1px solid #000;
 }
 
 .enterprise {
+    position: relative;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #000;
 }
 
 .text-enterprise {
     width: 60%;
-    border: 1px solid black;
-    padding: 40px;
+    padding: 20px;
 }
 
 .button-enterprise {
     width: 40%;
-    border: 1px solid black;
-    padding: 40px;
+    height: 100%;
 }
+
+.enterprise .button-enterprise a {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+
+/* ---------------*/
 
 .image-box-partner img {
     width: 100%;
@@ -216,12 +239,6 @@ div a {
 .text-box-partner {
     width: 50%;
     padding: 40px 0 0 40px;
-}
-
-.button-special a {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid black;
 }
 
 h2 {
@@ -252,5 +269,145 @@ h2 {
     width: 50%;
 }
 
+/* ---------------*/
 
+.riga-blocchi {
+    width: 100%;
+}
 
+.gruppo1, .gruppo3 {
+    width: 500px;
+    height: 500px;
+}
+
+.gruppo2 {
+    width: calc(100% - 1000px);
+    height: 500px;
+    padding: 34px 60px 0 60px;
+    background-color: #f5f5f5;
+}
+
+.teams {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.teams img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.gruppo2 hr {
+    margin-top: 45px;
+}
+
+.gruppo2 img {
+    width: 200px
+}
+
+.gruppo2 p {
+    font-size: 10px;
+    padding-top: 80px;
+}
+
+.tm1 {
+    background-color: #94d595;
+    border: 10px solid #caeacb;
+}
+
+.tm2 {
+    background-color: #6b002b;
+}
+
+.tm3 {
+    background-color: #0096d3;
+}
+
+.tm4, .tm5 {
+    background-color: #ff0000;
+}
+
+.tm6 {
+    background-color: #add1ea;
+}
+
+.tm7 {
+    background-color: #022486;
+}
+
+.tm8 {
+    background-color: #ffd600;
+}
+
+/* -------------------------  */
+
+.final-box-business {
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.button-special a{
+    width: 50%;
+}
+
+.text-fbb {
+    width: 50%;
+}
+
+.text-fbb h2 {
+    color: #71123d;
+}
+
+.dm-freq {
+    border-top: 1px solid #e4e4e6;
+    border-bottom: 1px solid #e4e4e6;
+    position: relative;
+}
+
+.fa-angle-down {
+    position: absolute;
+    right: 0;
+}
+
+.domande-frequenti {
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+/* ---------------*/
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: 100px;
+    padding: 100px 300px 300px 100px;
+}
+
+.footer .foot {
+    width: calc(100% / 5); 
+}
+
+.foot {
+    margin-bottom: 100px;
+}
+
+.foot h3 {
+    font-size: 30px;
+}
+
+.box-footer hr {
+    color: #fff;
+}
+
+.language {
+    margin-top: 15px;
+}
+
+.fa-globe-americas {
+    padding: 0 3px 0 0;
+}
