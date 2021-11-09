@@ -172,7 +172,7 @@ div a {
 }
 
 .plan-1, .plan-2, .plan-3 {
-    width: calc((100% / 3) - 60px);
+    width: calc((100% / 3) - 20px);
     border: 1px solid #000;
     padding-bottom: 100px;
 }
